@@ -1,7 +1,6 @@
 body {
     font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-    background-color: rgb(71, 172, 255);
-    margin: 1em 2em;
+    background-color: rgb(44, 137, 213);
 }
 
 .center-list {
@@ -16,3 +15,24 @@ ul li {
 }
 
 .center-list li:first-letter {font-size: 150%;}
+
+#wrap {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 75%;
+    background-color: rgba(150, 208, 255, 0.5);
+    border: 10px dotted rgb(202, 231, 255);
+    border-radius: 10px;
+}
+
+#wrap h1 {
+    border-bottom: 10px dotted rgb(202, 231, 255);
+    margin: 0;
+    padding-top: .67em;
+    padding-bottom: .67em;
+}
+
+a:visited {
+    color: rgb(202, 231, 255);
+}
