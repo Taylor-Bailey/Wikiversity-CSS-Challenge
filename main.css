@@ -1,3 +1,18 @@
-* {
+body {
     font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    background-color: rgb(71, 172, 255);
+    margin: 1em 2em;
 }
+
+.center-list {
+    margin: auto;
+    text-align: left;
+    width: 50%;
+}
+
+ul li {
+    list-style: none;
+    
+}
+
+.center-list li:first-letter {font-size: 150%;}
